@@ -3,7 +3,7 @@
     android:id="@+id/panel"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:visibility="gone"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -17,14 +17,14 @@
             android:id="@+id/lbs_btn"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:layout_marginBottom="32dp"
             android:layout_marginLeft="20dp"
             android:layout_marginStart="20dp"
             android:gravity="center"
-            android:orientation="vertical"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="80dp"
@@ -108,12 +108,12 @@
             android:id="@+id/idea_btn"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginBottom="11dp"
-            android:gravity="center"
-            android:orientation="vertical"
             android:layout_above="@+id/review_btn"
             android:layout_alignLeft="@+id/lbs_btn"
-            android:layout_alignStart="@+id/lbs_btn">
+            android:layout_alignStart="@+id/lbs_btn"
+            android:layout_marginBottom="11dp"
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="80dp"
